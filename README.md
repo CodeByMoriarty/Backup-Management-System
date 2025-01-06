@@ -16,3 +16,37 @@ This is a simple File Backup Management system built with PHP and Tailwind CSS. 
 
    ```bash
    git clone https://github.com/CodeByMoriarty/Backup-Management-System.git
+
+2. Set up a MySQL or MariaDB database and configure the database connection in db.php.
+
+3. Create a table in your database for storing file information. 
+
+## Usage
+
+## Dashboard 
+After logging in, users will be presented with the dashboard that includes the following options:
+
+## Manage Categories 
+Create and manage file categories.
+
+## Upload Files
+Upload files to the system.
+
+## View Files
+Browse and view uploaded files.
+
+## File Upload
+When uploading files, users can select the category to which the file belongs, and the system will automatically assign a timestamp for the file.
+
+## File Management
+Uploaded files are listed on the "View Files" page, where users can browse and manage them.
+
+## Security
+CSRF Protection: The system uses CSRF tokens to protect against Cross-Site Request Forgery (CSRF) attacks.
+Session Management: A secure session management system is implemented to track users and their activities.
+
+Dependencies
+PHP >= 7.4
+MySQL or MariaDB
+Tailwind CSS (via CDN)
+FontAwesome (for icons)
