@@ -62,3 +62,5 @@ We welcome contributions to this project! If you'd like to help, please follow t
 5. Open a pull request to merge your changes.
 
 Please ensure that your code follows the existing style and that tests are included if necessary.
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCodeByMoriarty%2FBackup-Management-System&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
