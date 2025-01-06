@@ -50,3 +50,15 @@ PHP >= 7.4
 MySQL or MariaDB
 Tailwind CSS (via CDN)
 FontAwesome (for icons)
+
+## Contributing
+
+We welcome contributions to this project! If you'd like to help, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them with clear messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to merge your changes.
+
+Please ensure that your code follows the existing style and that tests are included if necessary.
