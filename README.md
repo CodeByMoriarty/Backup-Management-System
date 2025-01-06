@@ -53,7 +53,9 @@ FontAwesome (for icons)
 
 ## Contributing
 
-We welcome contributions to this project! If you'd like to help, please follow these steps:
+We welcome contributions and suggestions to this project! Please note that this is a basic version of the system, and we are open to any improvements, features, or ideas you may have.
+
+If you'd like to help, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
@@ -61,6 +63,4 @@ We welcome contributions to this project! If you'd like to help, please follow t
 4. Push your changes to your forked repository.
 5. Open a pull request to merge your changes.
 
-Please ensure that your code follows the existing style and that tests are included if necessary.
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCodeByMoriarty%2FBackup-Management-System&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+Please ensure that your code follows the existing style and that tests are included if necessary. We're open to suggestions, and we encourage improvements that will enhance the functionality and usability of this project.
