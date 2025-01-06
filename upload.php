@@ -121,9 +121,12 @@ foreach ($categories as $category) {
             <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
 
             <div class="flex flex-col space-y-4">
-                <!-- File Upload -->
-                <label for="file" class="text-gray-700 font-semibold">Choose a file to upload</label>
-                <input type="file" name="file" id="file" class="border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+            <!-- File Upload -->
+            <label for="file" class="text-gray-700 font-semibold">Choose a file to upload</label>
+            <input type="file" name="file" id="file" class="border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+
+            <!-- Note about file size limit -->
+            <p class="text-sm text-gray-500 mt-2">* Maximum file size: 30MB</p>
 
                 <!-- Category Selection -->
                 <label for="category_id" class="text-gray-700 font-semibold">Select a Category</label>
