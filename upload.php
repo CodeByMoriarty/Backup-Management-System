@@ -19,9 +19,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     $subcategory_id = $_POST['subcategory_id'] ?: NULL;  // Optional subcategory
     $user_id = 1; // Assuming you're assigning a default user_id (could be dynamic if user is logged in)
 
+    // Maximum file size (30MB)
+    $maxFileSize = 30 * 1024 * 1024; // 30MB in bytes
+
     // File upload logic
     if ($file['error'] != 0) {
         $error = "Error during file upload!";
+    } elseif ($file['size'] > $maxFileSize) {
+        $error = "File size exceeds the 30MB limit!";
     } else {
         // Use the original file name
         $uploadDir = 'uploads/';
