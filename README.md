@@ -9,3 +9,10 @@ This is a simple File Backup Management system built with PHP and Tailwind CSS. 
 - **Category Management**: Create, edit, and delete categories to organize your files.
 - **File Management**: View and manage all uploaded files.
 - **Responsive UI**: Built using Tailwind CSS for a clean, responsive interface.
+
+## Installation
+
+1. Clone this repository to your local machine or server.
+
+   ```bash
+   git clone https://github.com/CodeByMoriarty/Backup-Management-System.git
